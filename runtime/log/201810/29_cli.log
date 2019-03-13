@@ -1,0 +1,58 @@
+[ 2018-10-29T15:53:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-29T15:53:28+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-29T15:53:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ 2018-10-29T15:53:28+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-29T15:53:29+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.039002s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-29T15:53:29+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.019001s ]
+[ 2018-10-29T15:53:29+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  (  `name` LIKE 'turntable%' ) [ RunTime:0.019001s ]
+[ 2018-10-29T15:53:37+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN (175,177,179,178,176,180,181,183,185,184,182,186) [ RunTime:0.020001s ]
+[ 2018-10-29T15:53:37+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 175 [ RunTime:0.019001s ]
+[ 2018-10-29T15:53:37+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 176 [ RunTime:0.009001s ]
+[ 2018-10-29T15:53:38+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 177 [ RunTime:0.010001s ]
+[ 2018-10-29T15:53:38+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 178 [ RunTime:0.009000s ]
+[ 2018-10-29T15:53:38+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 179 [ RunTime:0.009001s ]
+[ 2018-10-29T15:53:38+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 180 [ RunTime:0.010001s ]
+[ 2018-10-29T15:53:38+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 181 [ RunTime:0.009000s ]
+[ 2018-10-29T15:53:38+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 182 [ RunTime:0.009001s ]
+[ 2018-10-29T15:53:38+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 183 [ RunTime:0.009001s ]
+[ 2018-10-29T15:53:38+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 184 [ RunTime:0.009000s ]
+[ 2018-10-29T15:53:38+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 185 [ RunTime:0.010001s ]
+[ 2018-10-29T15:53:38+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 186 [ RunTime:0.009001s ]
+[ 2018-10-29T15:54:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-29T15:54:03+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-29T15:54:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011000s ]
+[ 2018-10-29T15:54:03+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-29T15:54:03+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.034002s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-29T15:54:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'turntable' [ RunTime:0.018001s ]
+[ 2018-10-29T15:54:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_turntable' [ RunTime:0.018001s ]
+[ 2018-10-29T15:54:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-29T15:54:10+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-29T15:54:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ 2018-10-29T15:54:10+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-29T15:54:10+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.030001s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-29T15:54:10+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'turntable' [ RunTime:0.014000s ]
+[ 2018-10-29T15:54:10+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_turntable' [ RunTime:0.014001s ]
+[ 2018-10-29T15:54:10+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_turntable' ORDER BY ORDINAL_POSITION [ RunTime:0.014001s ]
+[ 2018-10-29T15:54:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-29T15:54:15+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-29T15:54:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ 2018-10-29T15:54:15+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-29T15:54:15+08:00 ][ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-10-29T15:54:15+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.036002s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-29T15:54:15+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.020001s ]
+[ 2018-10-29T15:54:15+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'turntable' LIMIT 1 [ RunTime:0.020001s ]
+[ 2018-10-29T15:54:15+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'turntable' , '转盘管理' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1540799655 , 1540799655) [ RunTime:0.020001s ]
+[ 2018-10-29T15:54:15+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'turntable/index' LIMIT 1 [ RunTime:0.019001s ]
+[ 2018-10-29T15:54:15+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'turntable/add' LIMIT 1 [ RunTime:0.018001s ]
+[ 2018-10-29T15:54:15+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'turntable/edit' LIMIT 1 [ RunTime:0.020001s ]
+[ 2018-10-29T15:54:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'turntable/del' LIMIT 1 [ RunTime:0.019001s ]
+[ 2018-10-29T15:54:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'turntable/multi' LIMIT 1 [ RunTime:0.019001s ]
+[ 2018-10-29T15:54:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 260 , 'turntable/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1540799656 , 1540799656) [ RunTime:0.020001s ]
+[ 2018-10-29T15:54:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 260 , 'turntable/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1540799656 , 1540799656) [ RunTime:0.010001s ]
+[ 2018-10-29T15:54:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 260 , 'turntable/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1540799656 , 1540799656) [ RunTime:0.010001s ]
+[ 2018-10-29T15:54:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 260 , 'turntable/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1540799656 , 1540799656) [ RunTime:0.010000s ]
+[ 2018-10-29T15:54:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 260 , 'turntable/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1540799656 , 1540799656) [ RunTime:0.010000s ]

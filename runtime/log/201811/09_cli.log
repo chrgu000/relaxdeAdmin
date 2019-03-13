@@ -1,0 +1,29 @@
+[ 2018-11-09T10:41:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-11-09T10:41:09+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-11-09T10:41:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011000s ]
+[ 2018-11-09T10:41:09+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-11-09T10:41:09+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.033002s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-11-09T10:41:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'score' [ RunTime:0.015001s ]
+[ 2018-11-09T10:41:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_score' [ RunTime:0.016001s ]
+[ 2018-11-09T10:41:09+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_score' ORDER BY ORDINAL_POSITION [ RunTime:0.017001s ]
+[ 2018-11-09T10:41:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-11-09T10:41:23+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-11-09T10:41:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012001s ]
+[ 2018-11-09T10:41:23+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-11-09T10:41:23+08:00 ][ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.037003s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.020001s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'score' LIMIT 1 [ RunTime:0.021001s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'score' , '活跃值变动' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1541731283 , 1541731283) [ RunTime:0.021002s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'score/index' LIMIT 1 [ RunTime:0.021001s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'score/add' LIMIT 1 [ RunTime:0.020001s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'score/edit' LIMIT 1 [ RunTime:0.021002s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'score/del' LIMIT 1 [ RunTime:0.020001s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'score/multi' LIMIT 1 [ RunTime:0.021001s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 296 , 'score/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1541731283 , 1541731283) [ RunTime:0.021001s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 296 , 'score/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1541731283 , 1541731283) [ RunTime:0.010001s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 296 , 'score/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1541731283 , 1541731283) [ RunTime:0.010001s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 296 , 'score/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1541731283 , 1541731283) [ RunTime:0.011000s ]
+[ 2018-11-09T10:41:23+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 296 , 'score/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1541731283 , 1541731283) [ RunTime:0.011000s ]

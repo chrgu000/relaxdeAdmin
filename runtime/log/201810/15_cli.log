@@ -1,0 +1,178 @@
+[ 2018-10-15T16:34:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000321s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T16:34:56+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T16:34:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016219s ]
+[ 2018-10-15T16:35:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000268s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T16:35:11+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T16:35:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014125s ]
+[ 2018-10-15T16:35:11+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T16:35:11+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011976s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T16:35:12+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005272s ]
+[ 2018-10-15T16:35:12+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  (  `name` LIKE 'product%' ) [ RunTime:0.004877s ]
+[ 2018-10-15T16:35:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN (157,159,161,160,158,162) [ RunTime:0.005045s ]
+[ 2018-10-15T16:35:14+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 157 [ RunTime:0.004815s ]
+[ 2018-10-15T16:35:14+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 158 [ RunTime:0.002385s ]
+[ 2018-10-15T16:35:14+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 159 [ RunTime:0.002520s ]
+[ 2018-10-15T16:35:14+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 160 [ RunTime:0.002506s ]
+[ 2018-10-15T16:35:14+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 161 [ RunTime:0.002480s ]
+[ 2018-10-15T16:35:14+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 162 [ RunTime:0.002529s ]
+[ 2018-10-15T16:35:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000265s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T16:35:34+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T16:35:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013470s ]
+[ 2018-10-15T16:35:34+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T16:35:35+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.021556s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T16:35:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.006321s ]
+[ 2018-10-15T16:35:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_product' [ RunTime:0.004942s ]
+[ 2018-10-15T16:37:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000194s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T16:37:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T16:37:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014697s ]
+[ 2018-10-15T16:37:14+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T16:37:14+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.012585s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T16:37:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.005022s ]
+[ 2018-10-15T16:37:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_product' [ RunTime:0.005102s ]
+[ 2018-10-15T16:37:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_product' ORDER BY ORDINAL_POSITION [ RunTime:0.005426s ]
+[ 2018-10-15T16:37:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000232s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T16:37:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T16:37:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012997s ]
+[ 2018-10-15T16:37:44+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T16:37:44+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.012066s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005077s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'merchandise' LIMIT 1 [ RunTime:0.004880s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'merchandise' , 'merchandise' , 'fa fa-list' , '' , 1 , 'normal' , 1539592664 , 1539592664) [ RunTime:0.004801s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product' LIMIT 1 [ RunTime:0.004666s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (199 , 'merchandise/product' , '商品管理' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1539592664 , 1539592664) [ RunTime:0.004469s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product/index' LIMIT 1 [ RunTime:0.004588s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product/add' LIMIT 1 [ RunTime:0.004587s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product/edit' LIMIT 1 [ RunTime:0.004462s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product/del' LIMIT 1 [ RunTime:0.004531s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product/multi' LIMIT 1 [ RunTime:0.004554s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 200 , 'merchandise/product/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1539592664 , 1539592664) [ RunTime:0.004575s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 200 , 'merchandise/product/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1539592664 , 1539592664) [ RunTime:0.002457s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 200 , 'merchandise/product/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1539592664 , 1539592664) [ RunTime:0.002229s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 200 , 'merchandise/product/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1539592664 , 1539592664) [ RunTime:0.002330s ]
+[ 2018-10-15T16:37:44+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 200 , 'merchandise/product/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1539592664 , 1539592664) [ RunTime:0.002305s ]
+[ 2018-10-15T16:45:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000246s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T16:45:54+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T16:45:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011192s ]
+[ 2018-10-15T16:45:54+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T16:45:54+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011947s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T16:45:54+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.005040s ]
+[ 2018-10-15T16:45:54+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_product' [ RunTime:0.005153s ]
+[ 2018-10-15T16:46:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000290s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T16:46:03+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T16:46:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017699s ]
+[ 2018-10-15T16:46:03+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T16:46:03+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013864s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T16:46:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'pdesc' [ RunTime:0.005383s ]
+[ 2018-10-15T16:46:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_pdesc' [ RunTime:0.005120s ]
+[ 2018-10-15T16:46:03+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_pdesc' ORDER BY ORDINAL_POSITION [ RunTime:0.005399s ]
+[ 2018-10-15T16:46:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000211s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T16:46:09+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T16:46:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012549s ]
+[ 2018-10-15T16:46:09+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T16:46:09+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011568s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005292s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'merchandise' LIMIT 1 [ RunTime:0.004643s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'merchandise/pdesc' LIMIT 1 [ RunTime:0.005909s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (199 , 'merchandise/pdesc' , '商品详情图' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1539593170 , 1539593170) [ RunTime:0.004689s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/pdesc/index' LIMIT 1 [ RunTime:0.004539s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/pdesc/add' LIMIT 1 [ RunTime:0.004576s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/pdesc/edit' LIMIT 1 [ RunTime:0.004517s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/pdesc/del' LIMIT 1 [ RunTime:0.004716s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/pdesc/multi' LIMIT 1 [ RunTime:0.004571s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 206 , 'merchandise/pdesc/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1539593170 , 1539593170) [ RunTime:0.004704s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 206 , 'merchandise/pdesc/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1539593170 , 1539593170) [ RunTime:0.002408s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 206 , 'merchandise/pdesc/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1539593170 , 1539593170) [ RunTime:0.002424s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 206 , 'merchandise/pdesc/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1539593170 , 1539593170) [ RunTime:0.002528s ]
+[ 2018-10-15T16:46:10+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 206 , 'merchandise/pdesc/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1539593170 , 1539593170) [ RunTime:0.002426s ]
+[ 2018-10-15T16:57:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000267s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T16:57:52+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T16:57:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015429s ]
+[ 2018-10-15T16:57:52+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T16:57:52+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.012388s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T16:57:52+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'turndesc' [ RunTime:0.005313s ]
+[ 2018-10-15T16:57:52+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_turndesc' [ RunTime:0.006028s ]
+[ 2018-10-15T16:57:52+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_turndesc' ORDER BY ORDINAL_POSITION [ RunTime:0.005485s ]
+[ 2018-10-15T16:58:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000273s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T16:58:07+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T16:58:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013885s ]
+[ 2018-10-15T16:58:07+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T16:58:07+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.012692s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005258s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'turndesc' LIMIT 1 [ RunTime:0.004746s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'turndesc' , '转盘描述' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1539593887 , 1539593887) [ RunTime:0.004906s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'turndesc/index' LIMIT 1 [ RunTime:0.004508s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'turndesc/add' LIMIT 1 [ RunTime:0.004554s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'turndesc/edit' LIMIT 1 [ RunTime:0.004959s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'turndesc/del' LIMIT 1 [ RunTime:0.004517s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'turndesc/multi' LIMIT 1 [ RunTime:0.004455s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 212 , 'turndesc/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1539593887 , 1539593887) [ RunTime:0.004511s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 212 , 'turndesc/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1539593887 , 1539593887) [ RunTime:0.002330s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 212 , 'turndesc/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1539593887 , 1539593887) [ RunTime:0.002272s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 212 , 'turndesc/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1539593887 , 1539593887) [ RunTime:0.002263s ]
+[ 2018-10-15T16:58:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 212 , 'turndesc/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1539593887 , 1539593887) [ RunTime:0.002270s ]
+[ 2018-10-15T17:18:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004642s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T17:18:00+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T17:18:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014726s ]
+[ 2018-10-15T17:18:00+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T17:18:00+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013986s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T17:18:00+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005479s ]
+[ 2018-10-15T17:18:00+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  (  `name` LIKE 'merchandise/product%' ) [ RunTime:0.005941s ]
+[ 2018-10-15T17:18:02+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN (200,202,204,203,201,205) [ RunTime:0.008654s ]
+[ 2018-10-15T17:18:02+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 200 [ RunTime:0.005049s ]
+[ 2018-10-15T17:18:02+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 201 [ RunTime:0.002658s ]
+[ 2018-10-15T17:18:02+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 202 [ RunTime:0.002471s ]
+[ 2018-10-15T17:18:02+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 203 [ RunTime:0.002625s ]
+[ 2018-10-15T17:18:02+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 204 [ RunTime:0.002512s ]
+[ 2018-10-15T17:18:02+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 205 [ RunTime:0.002614s ]
+[ 2018-10-15T17:18:39+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000255s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T17:18:39+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T17:18:39+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.032074s ]
+[ 2018-10-15T17:18:39+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T17:18:39+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.019389s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T17:18:39+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.005377s ]
+[ 2018-10-15T17:18:39+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_product' [ RunTime:0.006007s ]
+[ 2018-10-15T17:18:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000305s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T17:18:45+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T17:18:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017546s ]
+[ 2018-10-15T17:18:45+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T17:18:45+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.012229s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T17:18:45+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.005770s ]
+[ 2018-10-15T17:18:45+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_product' [ RunTime:0.005103s ]
+[ 2018-10-15T17:18:45+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_product' ORDER BY ORDINAL_POSITION [ RunTime:0.005327s ]
+[ 2018-10-15T17:18:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000222s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-15T17:18:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-15T17:18:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016837s ]
+[ 2018-10-15T17:18:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-15T17:18:49+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.012331s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005368s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'merchandise' LIMIT 1 [ RunTime:0.004926s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product' LIMIT 1 [ RunTime:0.004902s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (199 , 'merchandise/product' , '商品管理' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1539595129 , 1539595129) [ RunTime:0.004846s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product/index' LIMIT 1 [ RunTime:0.004662s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product/add' LIMIT 1 [ RunTime:0.004814s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product/edit' LIMIT 1 [ RunTime:0.004645s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product/del' LIMIT 1 [ RunTime:0.004725s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'merchandise/product/multi' LIMIT 1 [ RunTime:0.004714s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 218 , 'merchandise/product/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1539595129 , 1539595129) [ RunTime:0.004743s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 218 , 'merchandise/product/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1539595129 , 1539595129) [ RunTime:0.002381s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 218 , 'merchandise/product/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1539595129 , 1539595129) [ RunTime:0.002392s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 218 , 'merchandise/product/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1539595129 , 1539595129) [ RunTime:0.002414s ]
+[ 2018-10-15T17:18:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 218 , 'merchandise/product/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1539595129 , 1539595129) [ RunTime:0.002430s ]

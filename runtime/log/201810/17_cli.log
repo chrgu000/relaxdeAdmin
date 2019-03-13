@@ -1,0 +1,29 @@
+[ 2018-10-17T10:14:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000195s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-17T10:14:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-17T10:14:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013516s ]
+[ 2018-10-17T10:14:35+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-17T10:14:35+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.012584s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-17T10:14:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'affiche' [ RunTime:0.004898s ]
+[ 2018-10-17T10:14:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_affiche' [ RunTime:0.004979s ]
+[ 2018-10-17T10:14:35+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_affiche' ORDER BY ORDINAL_POSITION [ RunTime:0.005351s ]
+[ 2018-10-17T10:14:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000219s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-17T10:14:53+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-17T10:14:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013231s ]
+[ 2018-10-17T10:14:53+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-17T10:14:53+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-10-17T10:14:53+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013097s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-17T10:14:53+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005358s ]
+[ 2018-10-17T10:14:53+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'affiche' LIMIT 1 [ RunTime:0.005224s ]
+[ 2018-10-17T10:14:53+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'affiche' , '平台公告' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1539742493 , 1539742493) [ RunTime:0.005494s ]
+[ 2018-10-17T10:14:53+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'affiche/index' LIMIT 1 [ RunTime:0.005589s ]
+[ 2018-10-17T10:14:53+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'affiche/add' LIMIT 1 [ RunTime:0.005080s ]
+[ 2018-10-17T10:14:53+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'affiche/edit' LIMIT 1 [ RunTime:0.004925s ]
+[ 2018-10-17T10:14:53+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'affiche/del' LIMIT 1 [ RunTime:0.004869s ]
+[ 2018-10-17T10:14:54+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'affiche/multi' LIMIT 1 [ RunTime:0.004822s ]
+[ 2018-10-17T10:14:54+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 230 , 'affiche/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1539742494 , 1539742494) [ RunTime:0.004996s ]
+[ 2018-10-17T10:14:54+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 230 , 'affiche/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1539742494 , 1539742494) [ RunTime:0.002539s ]
+[ 2018-10-17T10:14:54+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 230 , 'affiche/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1539742494 , 1539742494) [ RunTime:0.002539s ]
+[ 2018-10-17T10:14:54+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 230 , 'affiche/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1539742494 , 1539742494) [ RunTime:0.002661s ]
+[ 2018-10-17T10:14:54+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 230 , 'affiche/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1539742494 , 1539742494) [ RunTime:0.002580s ]

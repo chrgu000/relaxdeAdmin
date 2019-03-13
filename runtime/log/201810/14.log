@@ -1,0 +1,3313 @@
+---------------------------------------------------------------
+[ 2018-10-14T00:48:56+08:00 ] 222.186.190.20 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.044855s][吞吐率：22.29req/s] [内存消耗：2,221.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000162s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004102s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wsapps.cn',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://118.25.39.147',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000551s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000310s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000382s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T03:05:44+08:00 ] 117.184.250.101 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.048193s][吞吐率：20.75req/s] [内存消耗：2,222.05kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000155s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010909s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'referer' => 'https://118.25.39.147/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'close',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000534s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000291s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000344s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T03:56:07+08:00 ] 205.205.150.9 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.045419s][吞吐率：22.02req/s] [内存消耗：2,220.99kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000151s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003743s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'python-requests/2.2.1 CPython/2.7.6 Linux/3.10.0-327.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, compress',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000566s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000321s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000379s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T03:56:12+08:00 ] 205.205.150.9 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.038527s][吞吐率：25.96req/s] [内存消耗：2,221.01kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003395s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'python-requests/2.2.1 CPython/2.7.6 Linux/3.10.0-327.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, compress',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000473s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000291s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000353s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T04:27:59+08:00 ] 183.60.210.46 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.054636s][吞吐率：18.30req/s] [内存消耗：2,221.10kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000167s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003803s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wsapps.cn',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://118.25.39.147',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000530s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000997s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000427s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T08:13:06+08:00 ] 183.60.210.46 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.070566s][吞吐率：14.17req/s] [内存消耗：2,221.10kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000450s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006893s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wsapps.cn',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://118.25.39.147',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001043s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000446s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000662s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T11:50:39+08:00 ] 222.186.190.20 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：1.258798s][吞吐率：0.79req/s] [内存消耗：2,221.10kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000258s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.107106s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wsapps.cn',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://118.25.39.147',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.016772s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.009091s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.009317s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T13:17:13+08:00 ] 123.163.150.130 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.057936s][吞吐率：17.26req/s] [内存消耗：2,221.10kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000245s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004766s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wsapps.cn',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://118.25.39.147',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000777s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000426s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000414s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T14:42:42+08:00 ] 212.129.27.129 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.053318s][吞吐率：18.76req/s] [内存消耗：2,220.73kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000305s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004917s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'libwww-perl/6.34',
+  'host' => 'wsapps.cn',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000689s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000441s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000493s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T15:29:09+08:00 ] 222.186.31.240 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.050230s][吞吐率：19.91req/s] [内存消耗：2,221.10kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000221s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004765s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wsapps.cn',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://118.25.39.147',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000669s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000370s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000391s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:02:39+08:00 ] 14.17.3.64 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.057279s][吞吐率：17.46req/s] [内存消耗：2,222.00kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000232s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004885s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'referer' => 'http://118.25.39.147:80/',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000958s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000428s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000390s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:05:23+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/content/slideshow
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/slideshow [运行时间：0.314190s][吞吐率：3.18req/s] [内存消耗：2,412.70kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005275s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'slideshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001298s ]
+[ info ] [ RUN ] app\api\controller\Content->slideshow[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013902s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_gslideshow` [ RunTime:0.004929s ]
+[ sql ] [ SQL ] SELECT `image`,`url` FROM `fa_gslideshow` [ RunTime:0.004450s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:05:24+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/content/activity
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/activity [运行时间：0.068488s][吞吐率：14.60req/s] [内存消耗：2,414.13kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000193s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000745s ]
+[ info ] [ RUN ] app\api\controller\Content->activity[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011544s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_activity` [ RunTime:0.004986s ]
+[ sql ] [ SQL ] SELECT `image`,`title`,`desc`,`url` FROM `fa_activity` [ RunTime:0.004503s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:05:24+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/shangpin
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/shangpin [运行时间：0.092969s][吞吐率：10.76req/s] [内存消耗：2,417.44kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000293s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005871s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'shangpin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000952s ]
+[ info ] [ RUN ] app\api\controller\Content->shangpin[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012405s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.005092s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntable` [ RunTime:0.004653s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:05:24+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/content/usergift
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/usergift [运行时间：0.082284s][吞吐率：12.15req/s] [内存消耗：2,413.11kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000248s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005891s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'usergift',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000630s ]
+[ info ] [ RUN ] app\api\controller\Content->usergift[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011485s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_usergift` [ RunTime:0.004712s ]
+[ sql ] [ SQL ] SELECT `image`,`images`,`title` FROM `fa_usergift` LIMIT 1 [ RunTime:0.004473s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:05:24+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/content/games
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/games [运行时间：0.093873s][吞吐率：10.65req/s] [内存消耗：2,414.13kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000229s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008375s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'games',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000768s ]
+[ info ] [ RUN ] app\api\controller\Content->games[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013091s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_games` [ RunTime:0.005293s ]
+[ sql ] [ SQL ] SELECT `image`,`title`,`desc`,`appid` FROM `fa_games` [ RunTime:0.004401s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:05:24+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/userinfo/index?code=071Ldvhz0maC8g1lINjz0z8Bhz0Ldvhk
+[ info ] wsapps.cn/relaxed/public/index.php/api/userinfo/index?code=071Ldvhz0maC8g1lINjz0z8Bhz0Ldvhk [运行时间：0.828483s][吞吐率：1.21req/s] [内存消耗：2,417.74kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004147s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'userinfo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071Ldvhz0maC8g1lINjz0z8Bhz0Ldvhk',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000518s ]
+[ info ] [ RUN ] app\api\controller\Userinfo->index[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Userinfo.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015139s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.005225s ]
+[ sql ] [ SQL ] SELECT `uid`,`openid` FROM `fa_user` WHERE  `openid` = 'ognmG5JJeenrs5B96F6zFQAqsonQ' LIMIT 1 [ RunTime:0.004998s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:05:25+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/userinfo/login?nickName=%E6%9C%A8%E5%AD%90%E6%9D%8E&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTJluoNCYp2sbY6XebjXGPAnMZp70H2iaqtnT6jhNia0vtiaOUlBVeDzFJxiaUWCspjQJstzE4mwlpIDTA%2F132&uid=1000002&gender=1
+[ info ] wsapps.cn/relaxed/public/index.php/api/userinfo/login?nickName=%E6%9C%A8%E5%AD%90%E6%9D%8E&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTJluoNCYp2sbY6XebjXGPAnMZp70H2iaqtnT6jhNia0vtiaOUlBVeDzFJxiaUWCspjQJstzE4mwlpIDTA%2F132&uid=1000002&gender=1 [运行时间：0.074531s][吞吐率：13.42req/s] [内存消耗：2,425.66kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004434s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'userinfo',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'nickName' => '木子李',
+  'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJluoNCYp2sbY6XebjXGPAnMZp70H2iaqtnT6jhNia0vtiaOUlBVeDzFJxiaUWCspjQJstzE4mwlpIDTA/132',
+  'uid' => '1000002',
+  'gender' => '1',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000495s ]
+[ info ] [ RUN ] app\api\controller\Userinfo->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Userinfo.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017049s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.005394s ]
+[ sql ] [ SQL ] SELECT `nickname`,`avatar` FROM `fa_user` WHERE  `uid` = 1000002 LIMIT 1 [ RunTime:0.004508s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname`,`username`,`avatar`,`sign`,`gender`,`gold`,`score`,`mobile`,`city`,`constellation`,`idnumber`,`birthday`,`isnew` FROM `fa_user` WHERE  `uid` = 1000002 LIMIT 1 [ RunTime:0.004472s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:05:28+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/surplus_num
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/surplus_num [运行时间：0.105120s][吞吐率：9.51req/s] [内存消耗：2,418.91kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004629s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'surplus_num',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000447s ]
+[ info ] [ RUN ] app\api\controller\Content->surplus_num[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016037s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.005183s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004736s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005159s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004744s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:05:29+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.111797s][吞吐率：8.94req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003976s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000632s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016112s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.004835s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004605s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004732s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004752s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004818s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.004414s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 5 , 10 , 1539504329) [ RunTime:0.004439s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:05:35+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.094727s][吞吐率：10.56req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003945s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000483s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008568s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.004878s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004599s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004876s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004783s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004425s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004436s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539504335) [ RunTime:0.004486s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:06:49+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.113295s][吞吐率：8.83req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004390s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000632s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016310s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005081s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004606s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004836s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004635s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004466s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004484s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539504409) [ RunTime:0.004529s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:06:56+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.110732s][吞吐率：9.03req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004619s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000478s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016204s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005113s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004996s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004888s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004907s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004846s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004806s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539504416) [ RunTime:0.004758s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:07:02+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.107427s][吞吐率：9.31req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004090s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000449s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015872s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005249s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004827s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.005104s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004775s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.005051s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004816s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004726s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539504422) [ RunTime:0.005046s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:07:08+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.111673s][吞吐率：8.95req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004904s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000498s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017380s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.004944s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004785s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004744s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004987s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004829s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.005022s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004717s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004607s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539504428) [ RunTime:0.004817s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:07:14+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.098108s][吞吐率：10.19req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004038s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000553s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007802s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005156s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004823s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.005019s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004935s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004549s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004594s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539504434) [ RunTime:0.004581s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:07:20+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.104115s][吞吐率：9.60req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004531s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000521s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015976s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005050s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004615s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004882s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004957s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004682s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.004501s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 5 , 10 , 1539504440) [ RunTime:0.004491s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:07:26+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.106281s][吞吐率：9.41req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004628s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000595s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016567s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.004830s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004551s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004777s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004821s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004454s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004500s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539504446) [ RunTime:0.005011s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:07:32+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.115918s][吞吐率：8.63req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004758s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000991s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016009s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005106s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004768s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004832s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004628s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004782s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004594s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.004573s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 5 , 10 , 1539504452) [ RunTime:0.004525s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:07:38+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.110406s][吞吐率：9.06req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005115s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000468s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016130s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005853s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.005382s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.005378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.005131s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.005039s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.005213s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.005021s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.004848s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 2 , -1 , 1539504458) [ RunTime:0.004952s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:07:44+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.104939s][吞吐率：9.53req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000076s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004011s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000621s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016219s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.004907s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004554s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004861s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004688s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004580s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004829s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539504464) [ RunTime:0.004672s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:07:50+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.110197s][吞吐率：9.07req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004079s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000623s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015924s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.004811s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004541s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004720s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004644s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004867s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004340s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539504470) [ RunTime:0.004458s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:07:57+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.100326s][吞吐率：9.97req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003964s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000413s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015839s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.004908s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004665s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004707s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004806s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004658s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.004499s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 5 , 10 , 1539504477) [ RunTime:0.004569s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:08:04+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.108105s][吞吐率：9.25req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004705s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000426s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015960s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.004966s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004520s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004934s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.005085s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004537s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.004703s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 5 , 10 , 1539504484) [ RunTime:0.004690s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:10:02+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/userinfo/user_slideshow
+[ info ] wsapps.cn/relaxed/public/index.php/api/userinfo/user_slideshow [运行时间：0.092568s][吞吐率：10.80req/s] [内存消耗：2,411.22kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005478s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'userinfo',
+    2 => 'user_slideshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000792s ]
+[ info ] [ RUN ] app\api\controller\Userinfo->user_slideshow[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Userinfo.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016626s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_userslideshow` [ RunTime:0.004845s ]
+[ sql ] [ SQL ] SELECT `image` FROM `fa_userslideshow` LIMIT 1 [ RunTime:0.004948s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:10:02+08:00 ] 211.161.245.250 GET /relaxed/public/undefined
+[ info ] wsapps.cn/relaxed/public/undefined [运行时间：0.093709s][吞吐率：10.67req/s] [内存消耗：1,404.95kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004938s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'undefined',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:10:18+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/present
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/present [运行时间：0.068106s][吞吐率：14.68req/s] [内存消耗：2,415.77kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004181s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'present',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000418s ]
+[ info ] [ RUN ] app\api\controller\Content->present[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015454s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.005034s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`name`,`price`,`sum`,`surplus` FROM `fa_product` [ RunTime:0.004468s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:08+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/present
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/present [运行时间：0.100046s][吞吐率：10.00req/s] [内存消耗：2,415.77kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000227s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007357s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'present',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001253s ]
+[ info ] [ RUN ] app\api\controller\Content->present[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017653s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.005233s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`name`,`price`,`sum`,`surplus` FROM `fa_product` [ RunTime:0.004765s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:11+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/present
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/present [运行时间：0.066514s][吞吐率：15.03req/s] [内存消耗：2,415.77kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004640s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'present',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000682s ]
+[ info ] [ RUN ] app\api\controller\Content->present[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007598s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.005136s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`name`,`price`,`sum`,`surplus` FROM `fa_product` [ RunTime:0.004678s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:12+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/conversion
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/conversion [运行时间：0.075930s][吞吐率：13.17req/s] [内存消耗：2,421.42kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005646s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'conversion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000539s ]
+[ info ] [ RUN ] app\api\controller\Content->conversion[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007875s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_conversion` [ RunTime:0.004904s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_conversion` WHERE  `uid` = 1000002  AND `status` = '未使用' [ RunTime:0.004641s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:14+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/w_conversion
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/w_conversion [运行时间：0.071672s][吞吐率：13.95req/s] [内存消耗：2,420.63kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000083s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004645s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'w_conversion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000715s ]
+[ info ] [ RUN ] app\api\controller\Content->w_conversion[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007561s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_indent` [ RunTime:0.004971s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_indent` WHERE  `uid` = 1000002 [ RunTime:0.004637s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:18+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/conversion
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/conversion [运行时间：0.071158s][吞吐率：14.05req/s] [内存消耗：2,421.42kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004298s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'conversion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000487s ]
+[ info ] [ RUN ] app\api\controller\Content->conversion[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016387s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_conversion` [ RunTime:0.004939s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_conversion` WHERE  `uid` = 1000002  AND `status` = '未使用' [ RunTime:0.004662s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:19+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/w_conversion
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/w_conversion [运行时间：0.061296s][吞吐率：16.31req/s] [内存消耗：2,420.63kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004582s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'w_conversion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000482s ]
+[ info ] [ RUN ] app\api\controller\Content->w_conversion[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007583s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_indent` [ RunTime:0.004799s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_indent` WHERE  `uid` = 1000002 [ RunTime:0.004574s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:19+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/conversion
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/conversion [运行时间：0.064186s][吞吐率：15.58req/s] [内存消耗：2,421.42kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004711s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'conversion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000461s ]
+[ info ] [ RUN ] app\api\controller\Content->conversion[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007934s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_conversion` [ RunTime:0.004749s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_conversion` WHERE  `uid` = 1000002  AND `status` = '未使用' [ RunTime:0.004470s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:20+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/w_conversion
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/w_conversion [运行时间：0.080002s][吞吐率：12.50req/s] [内存消耗：2,420.63kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005464s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'w_conversion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000668s ]
+[ info ] [ RUN ] app\api\controller\Content->w_conversion[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008005s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_indent` [ RunTime:0.005151s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_indent` WHERE  `uid` = 1000002 [ RunTime:0.004880s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:21+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/conversion
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/conversion [运行时间：0.061791s][吞吐率：16.18req/s] [内存消耗：2,421.42kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004256s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'conversion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000480s ]
+[ info ] [ RUN ] app\api\controller\Content->conversion[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008509s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_conversion` [ RunTime:0.005151s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_conversion` WHERE  `uid` = 1000002  AND `status` = '未使用' [ RunTime:0.004784s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:22+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/w_conversion
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/w_conversion [运行时间：0.077231s][吞吐率：12.95req/s] [内存消耗：2,420.63kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000090s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004497s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'w_conversion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000640s ]
+[ info ] [ RUN ] app\api\controller\Content->w_conversion[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015677s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_indent` [ RunTime:0.004902s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_indent` WHERE  `uid` = 1000002 [ RunTime:0.004433s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:37+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/present
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/present [运行时间：0.061433s][吞吐率：16.28req/s] [内存消耗：2,415.77kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004871s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'present',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000459s ]
+[ info ] [ RUN ] app\api\controller\Content->present[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007713s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.004918s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`name`,`price`,`sum`,`surplus` FROM `fa_product` [ RunTime:0.004560s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:38+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/p_info
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/p_info [运行时间：0.069267s][吞吐率：14.44req/s] [内存消耗：2,419.37kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004890s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'p_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '9',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'pid' => 1,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000583s ]
+[ info ] [ RUN ] app\api\controller\Content->p_info[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007750s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.004875s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`images`,`name`,`desc`,`price`,`sum`,`surplus` FROM `fa_product` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004616s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:38+08:00 ] 211.161.245.250 GET /relaxed/public/undefined
+[ info ] wsapps.cn/relaxed/public/undefined [运行时间：0.031894s][吞吐率：31.35req/s] [内存消耗：1,404.95kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005908s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'undefined',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:12:40+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/present
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/present [运行时间：0.062818s][吞吐率：15.92req/s] [内存消耗：2,415.77kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004297s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'present',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000451s ]
+[ info ] [ RUN ] app\api\controller\Content->present[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007644s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.004982s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`name`,`price`,`sum`,`surplus` FROM `fa_product` [ RunTime:0.005288s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:41+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/p_info
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/p_info [运行时间：0.088268s][吞吐率：11.33req/s] [内存消耗：2,418.98kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005278s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'p_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '9',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'pid' => 2,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000538s ]
+[ info ] [ RUN ] app\api\controller\Content->p_info[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016199s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`images`,`name`,`desc`,`price`,`sum`,`surplus` FROM `fa_product` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.004922s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:42+08:00 ] 211.161.245.250 GET /relaxed/public/undefined
+[ info ] wsapps.cn/relaxed/public/undefined [运行时间：0.030607s][吞吐率：32.67req/s] [内存消耗：1,404.95kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004593s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'undefined',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:12:44+08:00 ] 211.161.245.250 GET /relaxed/public/undefined
+[ info ] wsapps.cn/relaxed/public/undefined [运行时间：0.029703s][吞吐率：33.67req/s] [内存消耗：1,404.95kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004150s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'undefined',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:12:48+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/present
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/present [运行时间：0.077676s][吞吐率：12.87req/s] [内存消耗：2,415.77kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004737s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'present',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000522s ]
+[ info ] [ RUN ] app\api\controller\Content->present[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016232s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.005318s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`name`,`price`,`sum`,`surplus` FROM `fa_product` [ RunTime:0.004825s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:49+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/p_info
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/p_info [运行时间：0.065144s][吞吐率：15.35req/s] [内存消耗：2,418.98kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004437s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'p_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '9',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'pid' => 2,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000502s ]
+[ info ] [ RUN ] app\api\controller\Content->p_info[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007258s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.004816s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`images`,`name`,`desc`,`price`,`sum`,`surplus` FROM `fa_product` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.004733s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:12:49+08:00 ] 211.161.245.250 GET /relaxed/public/undefined
+[ info ] wsapps.cn/relaxed/public/undefined [运行时间：0.033552s][吞吐率：29.80req/s] [内存消耗：1,404.95kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004780s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'undefined',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:12:51+08:00 ] 211.161.245.250 GET /relaxed/public/undefined
+[ info ] wsapps.cn/relaxed/public/undefined [运行时间：0.045662s][吞吐率：21.90req/s] [内存消耗：1,404.95kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006519s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'undefined',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:13:05+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/indent
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/indent [运行时间：0.103503s][吞吐率：9.66req/s] [内存消耗：2,442.30kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004641s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'indent',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '109',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'pid' => 2,
+  'num' => 1,
+  'value' => 800,
+  'formid' => '4bd32b41898567c18e6c7745e8cbba64',
+  'phone' => '18591407523',
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000561s ]
+[ info ] [ RUN ] app\api\controller\Content->indent[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016167s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.004991s ]
+[ sql ] [ SQL ] SELECT `avatar`,`username`,`mobile`,`score` FROM `fa_user` WHERE  `uid` = 1000002 LIMIT 1 [ RunTime:0.004654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.004808s ]
+[ sql ] [ SQL ] SELECT `image`,`name`,`price` FROM `fa_product` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.004389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_indent` [ RunTime:0.004868s ]
+[ sql ] [ SQL ] INSERT INTO `fa_indent` (`uid` , `avatar` , `username` , `mobile` , `pname` , `image` , `num` , `value` , `formid` , `phone` , `createtime`) VALUES (1000002 , 'https://wsapps.cn/relaxed/public/uploads/images/20181011/55b5a9305dd2a83592a997644de3f1cd.jpg' , '李新宝' , '18591407523' , '全国移动流量充值卡' , '/uploads/20181011/fa07aee6c780b398c64951f4a03f2dce.png' , 1 , '800' , '4bd32b41898567c18e6c7745e8cbba64' , '18591407523' , 1539504785) [ RunTime:0.004706s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `score`=599200  WHERE  `uid` = 1000002 [ RunTime:0.004495s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `uid` = 1000002 LIMIT 1 [ RunTime:0.004509s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:13:10+08:00 ] 211.161.245.250 GET /relaxed/public/undefined
+[ info ] wsapps.cn/relaxed/public/undefined [运行时间：0.031188s][吞吐率：32.06req/s] [内存消耗：1,404.95kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005485s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'undefined',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:13:13+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/present
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/present [运行时间：0.067745s][吞吐率：14.76req/s] [内存消耗：2,415.77kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004893s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'present',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000474s ]
+[ info ] [ RUN ] app\api\controller\Content->present[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007839s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.005095s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`name`,`price`,`sum`,`surplus` FROM `fa_product` [ RunTime:0.004724s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:13:14+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/p_info
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/p_info [运行时间：0.074027s][吞吐率：13.51req/s] [内存消耗：2,418.98kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004545s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'p_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '9',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'pid' => 2,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000444s ]
+[ info ] [ RUN ] app\api\controller\Content->p_info[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016173s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.005382s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`images`,`name`,`desc`,`price`,`sum`,`surplus` FROM `fa_product` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.005101s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:13:15+08:00 ] 211.161.245.250 GET /relaxed/public/undefined
+[ info ] wsapps.cn/relaxed/public/undefined [运行时间：0.028213s][吞吐率：35.44req/s] [内存消耗：1,404.95kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'undefined',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:13:16+08:00 ] 211.161.245.250 GET /relaxed/public/undefined
+[ info ] wsapps.cn/relaxed/public/undefined [运行时间：0.030985s][吞吐率：32.27req/s] [内存消耗：1,404.95kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005452s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'undefined',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T16:13:18+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/present
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/present [运行时间：0.146491s][吞吐率：6.83req/s] [内存消耗：2,415.77kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000094s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005439s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'present',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000611s ]
+[ info ] [ RUN ] app\api\controller\Content->present[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.076486s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.005368s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`name`,`price`,`sum`,`surplus` FROM `fa_product` [ RunTime:0.004854s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:35+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/content/slideshow
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/slideshow [运行时间：0.107863s][吞吐率：9.27req/s] [内存消耗：2,412.70kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000206s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004851s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'slideshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000899s ]
+[ info ] [ RUN ] app\api\controller\Content->slideshow[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043923s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_gslideshow` [ RunTime:0.004876s ]
+[ sql ] [ SQL ] SELECT `image`,`url` FROM `fa_gslideshow` [ RunTime:0.004388s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:36+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/content/games
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/games [运行时间：0.063654s][吞吐率：15.71req/s] [内存消耗：2,414.13kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006102s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'games',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000468s ]
+[ info ] [ RUN ] app\api\controller\Content->games[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007290s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_games` [ RunTime:0.004894s ]
+[ sql ] [ SQL ] SELECT `image`,`title`,`desc`,`appid` FROM `fa_games` [ RunTime:0.004426s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:36+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/content/activity
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/activity [运行时间：0.074412s][吞吐率：13.44req/s] [内存消耗：2,414.13kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000205s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006054s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000662s ]
+[ info ] [ RUN ] app\api\controller\Content->activity[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011689s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_activity` [ RunTime:0.004902s ]
+[ sql ] [ SQL ] SELECT `image`,`title`,`desc`,`url` FROM `fa_activity` [ RunTime:0.004671s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:36+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/content/usergift
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/usergift [运行时间：0.083975s][吞吐率：11.91req/s] [内存消耗：2,413.11kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000194s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005649s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'usergift',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000918s ]
+[ info ] [ RUN ] app\api\controller\Content->usergift[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011858s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_usergift` [ RunTime:0.004771s ]
+[ sql ] [ SQL ] SELECT `image`,`images`,`title` FROM `fa_usergift` LIMIT 1 [ RunTime:0.007783s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:36+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/shangpin
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/shangpin [运行时间：0.085067s][吞吐率：11.76req/s] [内存消耗：2,417.44kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000341s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004573s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'shangpin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000637s ]
+[ info ] [ RUN ] app\api\controller\Content->shangpin[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011129s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004979s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntable` [ RunTime:0.004574s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:36+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/userinfo/index?code=0819f0x12IcewY0Lxvw12doZw129f0x9
+[ info ] wsapps.cn/relaxed/public/index.php/api/userinfo/index?code=0819f0x12IcewY0Lxvw12doZw129f0x9 [运行时间：0.507973s][吞吐率：1.97req/s] [内存消耗：2,417.74kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004132s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'userinfo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0819f0x12IcewY0Lxvw12doZw129f0x9',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002933s ]
+[ info ] [ RUN ] app\api\controller\Userinfo->index[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Userinfo.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015581s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.005046s ]
+[ sql ] [ SQL ] SELECT `uid`,`openid` FROM `fa_user` WHERE  `openid` = 'ognmG5JJeenrs5B96F6zFQAqsonQ' LIMIT 1 [ RunTime:0.004535s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:37+08:00 ] 211.161.245.250 GET /relaxed/public/index.php/api/userinfo/login?nickName=%E6%9C%A8%E5%AD%90%E6%9D%8E&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTJluoNCYp2sbY6XebjXGPAnMZp70H2iaqtnT6jhNia0vtiaOUlBVeDzFJxiaUWCspjQJstzE4mwlpIDTA%2F132&uid=1000002&gender=1
+[ info ] wsapps.cn/relaxed/public/index.php/api/userinfo/login?nickName=%E6%9C%A8%E5%AD%90%E6%9D%8E&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTJluoNCYp2sbY6XebjXGPAnMZp70H2iaqtnT6jhNia0vtiaOUlBVeDzFJxiaUWCspjQJstzE4mwlpIDTA%2F132&uid=1000002&gender=1 [运行时间：0.084518s][吞吐率：11.83req/s] [内存消耗：2,425.66kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005216s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'userinfo',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'nickName' => '木子李',
+  'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJluoNCYp2sbY6XebjXGPAnMZp70H2iaqtnT6jhNia0vtiaOUlBVeDzFJxiaUWCspjQJstzE4mwlpIDTA/132',
+  'uid' => '1000002',
+  'gender' => '1',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000544s ]
+[ info ] [ RUN ] app\api\controller\Userinfo->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Userinfo.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015581s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.005167s ]
+[ sql ] [ SQL ] SELECT `nickname`,`avatar` FROM `fa_user` WHERE  `uid` = 1000002 LIMIT 1 [ RunTime:0.004464s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname`,`username`,`avatar`,`sign`,`gender`,`gold`,`score`,`mobile`,`city`,`constellation`,`idnumber`,`birthday`,`isnew` FROM `fa_user` WHERE  `uid` = 1000002 LIMIT 1 [ RunTime:0.004751s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:37+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/surplus_num
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/surplus_num [运行时间：0.082624s][吞吐率：12.10req/s] [内存消耗：2,418.91kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004464s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'surplus_num',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000472s ]
+[ info ] [ RUN ] app\api\controller\Content->surplus_num[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015817s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005014s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004994s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:38+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.094490s][吞吐率：10.58req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003920s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000487s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007729s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005257s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004741s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004788s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.005080s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.005010s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004571s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004482s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539505538) [ RunTime:0.004719s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:44+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.106014s][吞吐率：9.43req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010449s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000587s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008411s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005166s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004706s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.005025s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004809s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.005189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004886s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004538s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.004628s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 2 , -1 , 1539505544) [ RunTime:0.004473s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:50+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.111145s][吞吐率：9.00req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004436s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000458s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017046s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005217s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.005136s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.005723s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004875s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.005041s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004820s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.005304s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 5 , 10 , 1539505550) [ RunTime:0.004673s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:25:56+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.108066s][吞吐率：9.25req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005748s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000545s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007730s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.004984s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004780s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004768s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.005105s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004915s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004533s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.004708s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 5 , 10 , 1539505556) [ RunTime:0.004558s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:26:02+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.114113s][吞吐率：8.76req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004143s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000582s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015946s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005215s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004928s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004789s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.004952s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.004895s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004640s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.004620s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 5 , 10 , 1539505562) [ RunTime:0.004790s ]
+---------------------------------------------------------------
+[ 2018-10-14T16:26:08+08:00 ] 211.161.245.250 POST /relaxed/public/index.php/api/content/award
+[ info ] wsapps.cn/relaxed/public/index.php/api/content/award [运行时间：0.106283s][吞吐率：9.41req/s] [内存消耗：2,391.12kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003949s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'award',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc37e1c65e42af8cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000002,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000472s ]
+[ info ] [ RUN ] app\api\controller\Content->award[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015917s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_record` [ RunTime:0.005364s ]
+[ sql ] [ SQL ] SELECT sum(value) FROM `fa_record` WHERE  `createtime` >= 1539446400 LIMIT 1 [ RunTime:0.004773s ]
+[ sql ] [ SQL ] SELECT count(uid) FROM `fa_record` WHERE  `createtime` >= 1539446400  AND `uid` = 1000002 LIMIT 1 [ RunTime:0.004905s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntableconfig` [ RunTime:0.005194s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_turntableconfig` LIMIT 1 [ RunTime:0.004681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_turntable` [ RunTime:0.005031s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`probability` FROM `fa_turntable` [ RunTime:0.004814s ]
+[ sql ] [ SQL ] SELECT `id`,`value`,`name` FROM `fa_turntable` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.004595s ]
+[ sql ] [ SQL ] INSERT INTO `fa_record` (`uid` , `pid` , `value` , `createtime`) VALUES (1000002 , 4 , 5 , 1539505568) [ RunTime:0.005037s ]
+---------------------------------------------------------------
+[ 2018-10-14T17:45:41+08:00 ] 185.235.245.5 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.055730s][吞吐率：17.94req/s] [内存消耗：2,179.80kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000196s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004875s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'wsapps.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000765s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000416s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000409s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T22:50:59+08:00 ] 183.60.210.52 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.058773s][吞吐率：17.01req/s] [内存消耗：2,221.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000239s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005816s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wsapps.cn',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://118.25.39.147',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000866s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000469s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000453s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-14T22:53:04+08:00 ] 123.55.159.23 GET /relaxed/public/index.php/admin/index/login
+[ info ] wsapps.cn/relaxed/public/index.php/admin/index/login [运行时间：0.054113s][吞吐率：18.48req/s] [内存消耗：2,221.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005077s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wsapps.cn',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://118.25.39.147',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000649s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000508s ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000671s ]
+[ info ] [ LOG ] INIT File

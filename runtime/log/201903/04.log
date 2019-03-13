@@ -1,0 +1,308 @@
+---------------------------------------------------------------
+[ 2019-03-04T17:39:41+08:00 ] 101.229.241.59 POST /relaxed/public/index.php/api/openapi/invwentory
+[ info ] picc.18178.net/relaxed/public/index.php/api/openapi/invwentory [运行时间：2.217127s][吞吐率：0.45req/s] [内存消耗：2,413.26kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'openapi',
+    2 => 'invwentory',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxc89d469693cad993/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/6399f72a8b16e8c54913c5c44513a0fe',
+  'origin' => 'http://127.0.0.1:26061',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Openapi->invwentory[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Openapi.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025002s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product` WHERE  `carid` <> '无' [ RunTime:0.016001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=3494,`surplus`=3494  WHERE  `id` = 12 [ RunTime:0.015001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=3621,`surplus`=3621  WHERE  `id` = 13 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4103,`surplus`=4103  WHERE  `id` = 14 [ RunTime:0.008001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4523,`surplus`=4523  WHERE  `id` = 15 [ RunTime:0.009001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4931,`surplus`=4931  WHERE  `id` = 16 [ RunTime:0.008001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4997,`surplus`=4997  WHERE  `id` = 17 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4843,`surplus`=4843  WHERE  `id` = 18 [ RunTime:0.008001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=0,`surplus`=0  WHERE  `id` = 19 [ RunTime:0.007001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=0,`surplus`=0  WHERE  `id` = 20 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4990,`surplus`=4990  WHERE  `id` = 21 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4999,`surplus`=4999  WHERE  `id` = 22 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[ 2019-03-04T17:39:41+08:00 ] 101.229.241.59 POST /relaxed/public/index.php/api/content/present
+[ info ] picc.18178.net/relaxed/public/index.php/api/content/present [运行时间：0.196011s][吞吐率：5.10req/s] [内存消耗：2,463.81kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'present',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxc89d469693cad993/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/6399f72a8b16e8c54913c5c44513a0fe',
+  'origin' => 'http://127.0.0.1:26061',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '2',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Content->present[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030002s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product12` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`name`,`url` FROM `fa_product12` WHERE  `status` = 'normal' ORDER BY `weigh` DESC [ RunTime:0.019001s ]
+---------------------------------------------------------------
+[ 2019-03-04T17:41:42+08:00 ] 101.84.196.211 POST /relaxed/public/index.php/api/content/remind
+[ info ] picc.18178.net/relaxed/public/index.php/api/content/remind [运行时间：0.188011s][吞吐率：5.32req/s] [内存消耗：2,464.80kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'remind',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '15',
+  'referer' => 'https://servicewechat.com/wxc89d469693cad993/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16C101 MicroMessenger/7.0.3(0x17000321) NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'uid' => 1000004,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Content->remind[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029001s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_indent` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_indent` WHERE  `type` = 'no'  AND `uid` = 1000004 LIMIT 1 [ RunTime:0.019001s ]
+---------------------------------------------------------------
+[ 2019-03-04T17:41:44+08:00 ] 101.84.196.211 POST /relaxed/public/index.php/api/openapi/invwentory
+[ info ] picc.18178.net/relaxed/public/index.php/api/openapi/invwentory [运行时间：2.081119s][吞吐率：0.48req/s] [内存消耗：2,412.59kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'openapi',
+    2 => 'invwentory',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc89d469693cad993/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16C101 MicroMessenger/7.0.3(0x17000321) NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Openapi->invwentory[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Openapi.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027002s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product` WHERE  `carid` <> '无' [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=3494,`surplus`=3494  WHERE  `id` = 12 [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=3621,`surplus`=3621  WHERE  `id` = 13 [ RunTime:0.009001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4103,`surplus`=4103  WHERE  `id` = 14 [ RunTime:0.009001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4523,`surplus`=4523  WHERE  `id` = 15 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4931,`surplus`=4931  WHERE  `id` = 16 [ RunTime:0.009001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4997,`surplus`=4997  WHERE  `id` = 17 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4843,`surplus`=4843  WHERE  `id` = 18 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=0,`surplus`=0  WHERE  `id` = 19 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=0,`surplus`=0  WHERE  `id` = 20 [ RunTime:0.009001s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4990,`surplus`=4990  WHERE  `id` = 21 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `fa_product`  SET `sum`=4999,`surplus`=4999  WHERE  `id` = 22 [ RunTime:0.009001s ]
+---------------------------------------------------------------
+[ 2019-03-04T17:41:44+08:00 ] 101.84.196.211 POST /relaxed/public/index.php/api/content/present
+[ info ] picc.18178.net/relaxed/public/index.php/api/content/present [运行时间：0.181011s][吞吐率：5.52req/s] [内存消耗：2,463.39kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'content',
+    2 => 'present',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '2',
+  'referer' => 'https://servicewechat.com/wxc89d469693cad993/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16C101 MicroMessenger/7.0.3(0x17000321) NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'accept-encoding' => 'br, gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Content->present[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\api\controller\Content.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025001s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product12` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id`,`image`,`name`,`url` FROM `fa_product12` WHERE  `status` = 'normal' ORDER BY `weigh` DESC [ RunTime:0.016001s ]
+---------------------------------------------------------------
+[ 2019-03-04T18:48:25+08:00 ] 192.241.159.233 GET /relaxed/public/index.php/admin/index/login
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：2,212.36kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-862.2.3.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.001000s ]
+[ info ] [ VIEW ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001001s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-04T22:44:29+08:00 ] 5.188.62.15 GET /relaxed/public/index.php/admin/index/login
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：2,212.05kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.0',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.001000s ]
+[ info ] [ VIEW ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File

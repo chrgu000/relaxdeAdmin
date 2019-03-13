@@ -1,0 +1,58 @@
+[ 2018-10-11T12:58:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000163s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-11T12:58:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-11T12:58:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009575s ]
+[ 2018-10-11T12:58:44+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-11T12:58:44+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010480s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-11T12:58:44+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'indent' [ RunTime:0.004430s ]
+[ 2018-10-11T12:58:44+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_indent' [ RunTime:0.004517s ]
+[ 2018-10-11T12:58:44+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_indent' ORDER BY ORDINAL_POSITION [ RunTime:0.004986s ]
+[ 2018-10-11T12:59:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000188s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-11T12:59:06+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-11T12:59:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009242s ]
+[ 2018-10-11T12:59:06+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-11T12:59:06+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-10-11T12:59:06+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010902s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-11T12:59:06+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004871s ]
+[ 2018-10-11T12:59:06+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'indent' LIMIT 1 [ RunTime:0.004454s ]
+[ 2018-10-11T12:59:06+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'indent' , '订单审核' , 'fa fa-indent' , '' , 1 , 'normal' , 1539233946 , 1539233946) [ RunTime:0.004651s ]
+[ 2018-10-11T12:59:06+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'indent/index' LIMIT 1 [ RunTime:0.004299s ]
+[ 2018-10-11T12:59:06+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'indent/add' LIMIT 1 [ RunTime:0.004303s ]
+[ 2018-10-11T12:59:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'indent/edit' LIMIT 1 [ RunTime:0.004237s ]
+[ 2018-10-11T12:59:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'indent/del' LIMIT 1 [ RunTime:0.004393s ]
+[ 2018-10-11T12:59:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'indent/multi' LIMIT 1 [ RunTime:0.004318s ]
+[ 2018-10-11T12:59:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 187 , 'indent/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1539233947 , 1539233947) [ RunTime:0.004387s ]
+[ 2018-10-11T12:59:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 187 , 'indent/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1539233947 , 1539233947) [ RunTime:0.002166s ]
+[ 2018-10-11T12:59:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 187 , 'indent/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1539233947 , 1539233947) [ RunTime:0.002136s ]
+[ 2018-10-11T12:59:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 187 , 'indent/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1539233947 , 1539233947) [ RunTime:0.002141s ]
+[ 2018-10-11T12:59:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 187 , 'indent/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1539233947 , 1539233947) [ RunTime:0.002095s ]
+[ 2018-10-11T17:16:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000164s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-11T17:16:36+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-11T17:16:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009096s ]
+[ 2018-10-11T17:16:36+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-11T17:16:36+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010055s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-11T17:16:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'conversion' [ RunTime:0.004616s ]
+[ 2018-10-11T17:16:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_conversion' [ RunTime:0.004584s ]
+[ 2018-10-11T17:16:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_conversion' ORDER BY ORDINAL_POSITION [ RunTime:0.005169s ]
+[ 2018-10-11T17:17:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000149s ]
+[ info ] [ LOG ] INIT File
+[ 2018-10-11T17:17:03+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-10-11T17:17:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007804s ]
+[ 2018-10-11T17:17:03+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-10-11T17:17:03+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010437s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005141s ]
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'conversion' LIMIT 1 [ RunTime:0.004526s ]
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'conversion' , '兑换记录' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1539249423 , 1539249423) [ RunTime:0.004563s ]
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'conversion/index' LIMIT 1 [ RunTime:0.004468s ]
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'conversion/add' LIMIT 1 [ RunTime:0.004396s ]
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'conversion/edit' LIMIT 1 [ RunTime:0.004438s ]
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'conversion/del' LIMIT 1 [ RunTime:0.004523s ]
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'conversion/multi' LIMIT 1 [ RunTime:0.004523s ]
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 193 , 'conversion/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1539249423 , 1539249423) [ RunTime:0.004502s ]
+[ 2018-10-11T17:17:03+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 193 , 'conversion/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1539249423 , 1539249423) [ RunTime:0.002207s ]
+[ 2018-10-11T17:17:04+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 193 , 'conversion/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1539249424 , 1539249424) [ RunTime:0.002246s ]
+[ 2018-10-11T17:17:04+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 193 , 'conversion/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1539249424 , 1539249424) [ RunTime:0.002245s ]
+[ 2018-10-11T17:17:04+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 193 , 'conversion/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1539249424 , 1539249424) [ RunTime:0.002201s ]

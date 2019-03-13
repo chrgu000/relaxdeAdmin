@@ -1,0 +1,270 @@
+[ 2018-09-28T09:50:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000156s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T09:50:41+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T09:50:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008761s ]
+[ 2018-09-28T09:50:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T09:50:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011400s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T09:50:41+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004747s ]
+[ 2018-09-28T09:50:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  (  `name` LIKE 'user/user%' ) [ RunTime:0.004422s ]
+[ 2018-09-28T09:50:44+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN (91,93,95,94,92,96) [ RunTime:0.004542s ]
+[ 2018-09-28T09:50:44+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 91 [ RunTime:0.004394s ]
+[ 2018-09-28T09:50:44+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 92 [ RunTime:0.002127s ]
+[ 2018-09-28T09:50:44+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 93 [ RunTime:0.002091s ]
+[ 2018-09-28T09:50:44+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 94 [ RunTime:0.002207s ]
+[ 2018-09-28T09:50:44+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 95 [ RunTime:0.002128s ]
+[ 2018-09-28T09:50:44+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 96 [ RunTime:0.002103s ]
+[ 2018-09-28T09:50:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T09:50:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T09:50:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008004s ]
+[ 2018-09-28T09:50:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T09:50:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010009s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T09:50:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user' [ RunTime:0.004709s ]
+[ 2018-09-28T09:50:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user' [ RunTime:0.004623s ]
+[ 2018-09-28T09:51:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000142s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T09:51:00+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T09:51:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008825s ]
+[ 2018-09-28T09:51:00+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T09:51:00+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010079s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T09:51:00+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user' [ RunTime:0.004374s ]
+[ 2018-09-28T09:51:00+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user' [ RunTime:0.004326s ]
+[ 2018-09-28T09:51:00+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_user' ORDER BY ORDINAL_POSITION [ RunTime:0.005024s ]
+[ 2018-09-28T09:51:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T09:51:06+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T09:51:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009742s ]
+[ 2018-09-28T09:51:06+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T09:51:06+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-09-28T09:51:06+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010062s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T09:51:06+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005088s ]
+[ 2018-09-28T09:51:06+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user' LIMIT 1 [ RunTime:0.004705s ]
+[ 2018-09-28T09:51:06+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user/user' LIMIT 1 [ RunTime:0.004500s ]
+[ 2018-09-28T09:51:06+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (66 , 'user/user' , '会员管理' , 'fa fa-user' , '' , 1 , 'normal' , 1538099466 , 1538099466) [ RunTime:0.004646s ]
+[ 2018-09-28T09:51:06+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/index' LIMIT 1 [ RunTime:0.004408s ]
+[ 2018-09-28T09:51:06+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/add' LIMIT 1 [ RunTime:0.004381s ]
+[ 2018-09-28T09:51:06+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/edit' LIMIT 1 [ RunTime:0.004402s ]
+[ 2018-09-28T09:51:06+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/del' LIMIT 1 [ RunTime:0.004406s ]
+[ 2018-09-28T09:51:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/multi' LIMIT 1 [ RunTime:0.004333s ]
+[ 2018-09-28T09:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 97 , 'user/user/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1538099467 , 1538099467) [ RunTime:0.004427s ]
+[ 2018-09-28T09:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 97 , 'user/user/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1538099467 , 1538099467) [ RunTime:0.002271s ]
+[ 2018-09-28T09:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 97 , 'user/user/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1538099467 , 1538099467) [ RunTime:0.002217s ]
+[ 2018-09-28T09:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 97 , 'user/user/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1538099467 , 1538099467) [ RunTime:0.002194s ]
+[ 2018-09-28T09:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 97 , 'user/user/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1538099467 , 1538099467) [ RunTime:0.002206s ]
+[ 2018-09-28T13:16:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000182s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T13:16:43+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T13:16:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007732s ]
+[ 2018-09-28T13:16:43+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T13:16:43+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.080551s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T13:16:43+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activity' [ RunTime:0.004542s ]
+[ 2018-09-28T13:16:43+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_activity' [ RunTime:0.004552s ]
+[ 2018-09-28T13:16:43+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_activity' ORDER BY ORDINAL_POSITION [ RunTime:0.005205s ]
+[ 2018-09-28T13:17:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000316s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T13:17:03+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T13:17:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008351s ]
+[ 2018-09-28T13:17:03+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T13:17:03+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.018834s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004893s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'activity' LIMIT 1 [ RunTime:0.004444s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'activity' , '活动管理' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1538111823 , 1538111823) [ RunTime:0.004345s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'activity/index' LIMIT 1 [ RunTime:0.004227s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'activity/add' LIMIT 1 [ RunTime:0.004308s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'activity/edit' LIMIT 1 [ RunTime:0.004443s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'activity/del' LIMIT 1 [ RunTime:0.006927s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'activity/multi' LIMIT 1 [ RunTime:0.004571s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 103 , 'activity/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1538111823 , 1538111823) [ RunTime:0.004417s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 103 , 'activity/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1538111823 , 1538111823) [ RunTime:0.002219s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 103 , 'activity/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1538111823 , 1538111823) [ RunTime:0.002276s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 103 , 'activity/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1538111823 , 1538111823) [ RunTime:0.002175s ]
+[ 2018-09-28T13:17:03+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 103 , 'activity/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1538111823 , 1538111823) [ RunTime:0.002222s ]
+[ 2018-09-28T13:19:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T13:19:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T13:19:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007804s ]
+[ 2018-09-28T13:19:35+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T13:19:35+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010145s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T13:19:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'games' [ RunTime:0.004417s ]
+[ 2018-09-28T13:19:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_games' [ RunTime:0.004370s ]
+[ 2018-09-28T13:19:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_games' ORDER BY ORDINAL_POSITION [ RunTime:0.004762s ]
+[ 2018-09-28T13:19:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000141s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T13:19:52+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T13:19:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007387s ]
+[ 2018-09-28T13:19:52+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T13:19:52+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-09-28T13:19:52+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010116s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T13:19:52+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004848s ]
+[ 2018-09-28T13:19:52+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'games' LIMIT 1 [ RunTime:0.004607s ]
+[ 2018-09-28T13:19:52+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'games' , '游戏管理' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1538111992 , 1538111992) [ RunTime:0.004470s ]
+[ 2018-09-28T13:19:52+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'games/index' LIMIT 1 [ RunTime:0.004836s ]
+[ 2018-09-28T13:19:52+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'games/add' LIMIT 1 [ RunTime:0.004282s ]
+[ 2018-09-28T13:19:52+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'games/edit' LIMIT 1 [ RunTime:0.004331s ]
+[ 2018-09-28T13:19:52+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'games/del' LIMIT 1 [ RunTime:0.004433s ]
+[ 2018-09-28T13:19:52+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'games/multi' LIMIT 1 [ RunTime:0.004517s ]
+[ 2018-09-28T13:19:52+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 109 , 'games/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1538111992 , 1538111992) [ RunTime:0.004491s ]
+[ 2018-09-28T13:19:53+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 109 , 'games/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1538111993 , 1538111993) [ RunTime:0.002229s ]
+[ 2018-09-28T13:19:53+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 109 , 'games/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1538111993 , 1538111993) [ RunTime:0.002198s ]
+[ 2018-09-28T13:19:53+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 109 , 'games/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1538111993 , 1538111993) [ RunTime:0.002203s ]
+[ 2018-09-28T13:19:53+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 109 , 'games/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1538111993 , 1538111993) [ RunTime:0.002241s ]
+[ 2018-09-28T15:52:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T15:52:24+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T15:52:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008723s ]
+[ 2018-09-28T15:52:24+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T15:52:24+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.009857s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T15:52:24+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004932s ]
+[ 2018-09-28T15:52:24+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  (  `name` LIKE 'user/user%' ) [ RunTime:0.004900s ]
+[ 2018-09-28T15:52:59+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN (97,99,101,100,98,102) [ RunTime:0.004558s ]
+[ 2018-09-28T15:52:59+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 97 [ RunTime:0.004263s ]
+[ 2018-09-28T15:52:59+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 98 [ RunTime:0.002179s ]
+[ 2018-09-28T15:52:59+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 99 [ RunTime:0.002146s ]
+[ 2018-09-28T15:52:59+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 100 [ RunTime:0.002125s ]
+[ 2018-09-28T15:52:59+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 101 [ RunTime:0.002155s ]
+[ 2018-09-28T15:52:59+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 102 [ RunTime:0.002128s ]
+[ 2018-09-28T15:53:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T15:53:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T15:53:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009160s ]
+[ 2018-09-28T15:53:35+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T15:53:35+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010152s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T15:53:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user' [ RunTime:0.004668s ]
+[ 2018-09-28T15:53:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user' [ RunTime:0.004885s ]
+[ 2018-09-28T15:53:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000164s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T15:53:42+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T15:53:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011110s ]
+[ 2018-09-28T15:53:42+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T15:53:42+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010378s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T15:53:42+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user' [ RunTime:0.004480s ]
+[ 2018-09-28T15:53:42+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user' [ RunTime:0.004462s ]
+[ 2018-09-28T15:53:42+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_user' ORDER BY ORDINAL_POSITION [ RunTime:0.005051s ]
+[ 2018-09-28T15:53:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T15:53:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T15:53:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007902s ]
+[ 2018-09-28T15:53:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T15:53:51+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.018173s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004669s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user' LIMIT 1 [ RunTime:0.004368s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user/user' LIMIT 1 [ RunTime:0.004264s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (66 , 'user/user' , '会员管理' , 'fa fa-user' , '' , 1 , 'normal' , 1538121231 , 1538121231) [ RunTime:0.004392s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/index' LIMIT 1 [ RunTime:0.004281s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/add' LIMIT 1 [ RunTime:0.004224s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/edit' LIMIT 1 [ RunTime:0.004187s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/del' LIMIT 1 [ RunTime:0.004099s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/multi' LIMIT 1 [ RunTime:0.004172s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 115 , 'user/user/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1538121231 , 1538121231) [ RunTime:0.004238s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 115 , 'user/user/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1538121231 , 1538121231) [ RunTime:0.002174s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 115 , 'user/user/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1538121231 , 1538121231) [ RunTime:0.002118s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 115 , 'user/user/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1538121231 , 1538121231) [ RunTime:0.002096s ]
+[ 2018-09-28T15:53:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 115 , 'user/user/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1538121231 , 1538121231) [ RunTime:0.002098s ]
+[ 2018-09-28T16:33:39+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000198s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T16:33:39+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T16:33:39+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008957s ]
+[ 2018-09-28T16:33:39+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T16:33:39+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010534s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T16:33:39+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004826s ]
+[ 2018-09-28T16:33:39+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  (  `name` LIKE 'user/user%' ) [ RunTime:0.004735s ]
+[ 2018-09-28T16:33:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN (115,117,119,118,116,120) [ RunTime:0.004985s ]
+[ 2018-09-28T16:33:41+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 115 [ RunTime:0.005072s ]
+[ 2018-09-28T16:33:41+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 116 [ RunTime:0.002295s ]
+[ 2018-09-28T16:33:41+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 117 [ RunTime:0.002253s ]
+[ 2018-09-28T16:33:41+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 118 [ RunTime:0.002235s ]
+[ 2018-09-28T16:33:41+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 119 [ RunTime:0.002236s ]
+[ 2018-09-28T16:33:41+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 120 [ RunTime:0.002166s ]
+[ 2018-09-28T16:33:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T16:33:50+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T16:33:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008292s ]
+[ 2018-09-28T16:33:50+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T16:33:50+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.009875s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T16:33:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user' [ RunTime:0.004458s ]
+[ 2018-09-28T16:33:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user' [ RunTime:0.004670s ]
+[ 2018-09-28T16:34:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T16:34:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T16:34:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008898s ]
+[ 2018-09-28T16:34:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T16:34:46+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010230s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T16:34:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user' [ RunTime:0.004730s ]
+[ 2018-09-28T16:34:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user' [ RunTime:0.004763s ]
+[ 2018-09-28T16:34:46+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_user' ORDER BY ORDINAL_POSITION [ RunTime:0.005105s ]
+[ 2018-09-28T16:34:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T16:34:57+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T16:34:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010346s ]
+[ 2018-09-28T16:34:57+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T16:34:57+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.018210s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004744s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user' LIMIT 1 [ RunTime:0.004489s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user/user' LIMIT 1 [ RunTime:0.004435s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (66 , 'user/user' , '会员管理' , 'fa fa-user' , '' , 1 , 'normal' , 1538123697 , 1538123697) [ RunTime:0.004377s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/index' LIMIT 1 [ RunTime:0.004190s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/add' LIMIT 1 [ RunTime:0.004312s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/edit' LIMIT 1 [ RunTime:0.004310s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/del' LIMIT 1 [ RunTime:0.004290s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/multi' LIMIT 1 [ RunTime:0.004268s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 121 , 'user/user/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1538123697 , 1538123697) [ RunTime:0.004249s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 121 , 'user/user/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1538123697 , 1538123697) [ RunTime:0.002126s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 121 , 'user/user/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1538123697 , 1538123697) [ RunTime:0.002073s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 121 , 'user/user/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1538123697 , 1538123697) [ RunTime:0.002127s ]
+[ 2018-09-28T16:34:57+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 121 , 'user/user/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1538123697 , 1538123697) [ RunTime:0.002147s ]
+[ 2018-09-28T16:41:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000203s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T16:41:10+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T16:41:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009529s ]
+[ 2018-09-28T16:41:10+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T16:41:10+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.047016s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T16:41:10+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005074s ]
+[ 2018-09-28T16:41:10+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  (  `name` LIKE 'user/user%' ) [ RunTime:0.004484s ]
+[ 2018-09-28T16:41:12+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN (121,123,125,124,122,126) [ RunTime:0.004479s ]
+[ 2018-09-28T16:41:12+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 121 [ RunTime:0.004176s ]
+[ 2018-09-28T16:41:12+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 122 [ RunTime:0.002115s ]
+[ 2018-09-28T16:41:12+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 123 [ RunTime:0.002104s ]
+[ 2018-09-28T16:41:12+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 124 [ RunTime:0.002161s ]
+[ 2018-09-28T16:41:12+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 125 [ RunTime:0.002139s ]
+[ 2018-09-28T16:41:12+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 126 [ RunTime:0.002154s ]
+[ 2018-09-28T16:41:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T16:41:20+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T16:41:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007588s ]
+[ 2018-09-28T16:41:21+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T16:41:21+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.009999s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T16:41:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user' [ RunTime:0.004585s ]
+[ 2018-09-28T16:41:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user' [ RunTime:0.004608s ]
+[ 2018-09-28T16:41:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T16:41:26+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T16:41:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007955s ]
+[ 2018-09-28T16:41:26+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T16:41:26+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010174s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T16:41:26+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user' [ RunTime:0.004569s ]
+[ 2018-09-28T16:41:26+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user' [ RunTime:0.004650s ]
+[ 2018-09-28T16:41:26+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_user' ORDER BY ORDINAL_POSITION [ RunTime:0.005025s ]
+[ 2018-09-28T16:41:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000148s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-28T16:41:33+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-28T16:41:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007464s ]
+[ 2018-09-28T16:41:33+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-28T16:41:33+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.009908s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004684s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user' LIMIT 1 [ RunTime:0.004483s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user/user' LIMIT 1 [ RunTime:0.004274s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (66 , 'user/user' , '会员管理' , 'fa fa-user' , '' , 1 , 'normal' , 1538124093 , 1538124093) [ RunTime:0.004442s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/index' LIMIT 1 [ RunTime:0.004204s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/add' LIMIT 1 [ RunTime:0.004154s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/edit' LIMIT 1 [ RunTime:0.004271s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/del' LIMIT 1 [ RunTime:0.004239s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/user/multi' LIMIT 1 [ RunTime:0.004198s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 127 , 'user/user/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1538124093 , 1538124093) [ RunTime:0.004285s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 127 , 'user/user/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1538124093 , 1538124093) [ RunTime:0.002108s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 127 , 'user/user/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1538124093 , 1538124093) [ RunTime:0.002057s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 127 , 'user/user/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1538124093 , 1538124093) [ RunTime:0.002088s ]
+[ 2018-09-28T16:41:33+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 127 , 'user/user/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1538124093 , 1538124093) [ RunTime:0.002062s ]

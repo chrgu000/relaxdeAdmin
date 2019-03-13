@@ -1,0 +1,52 @@
+[ 2018-11-20T09:25:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-11-20T09:25:28+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-11-20T09:25:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ 2018-11-20T09:25:29+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-11-20T09:25:29+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.031002s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-11-20T09:25:29+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.017001s ]
+[ 2018-11-20T09:25:29+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  (  `name` LIKE 'notice%' ) [ RunTime:0.017001s ]
+[ 2018-11-20T09:25:31+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN (145,147,149,148,146,150) [ RunTime:0.017001s ]
+[ 2018-11-20T09:25:31+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 145 [ RunTime:0.015001s ]
+[ 2018-11-20T09:25:31+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 146 [ RunTime:0.007001s ]
+[ 2018-11-20T09:25:31+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 147 [ RunTime:0.008000s ]
+[ 2018-11-20T09:25:31+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 148 [ RunTime:0.008000s ]
+[ 2018-11-20T09:25:31+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 149 [ RunTime:0.008001s ]
+[ 2018-11-20T09:25:31+08:00 ][ sql ] [ SQL ] DELETE FROM `fa_auth_rule`    WHERE  `id` = 150 [ RunTime:0.008000s ]
+[ 2018-11-20T09:26:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-11-20T09:26:02+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-11-20T09:26:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011000s ]
+[ 2018-11-20T09:26:03+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-11-20T09:26:03+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.035002s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-11-20T09:26:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'notice' [ RunTime:0.019001s ]
+[ 2018-11-20T09:26:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_notice' [ RunTime:0.020001s ]
+[ 2018-11-20T09:26:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-11-20T09:26:10+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-11-20T09:26:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ 2018-11-20T09:26:10+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-11-20T09:26:10+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.033002s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-11-20T09:26:10+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'notice' [ RunTime:0.019002s ]
+[ 2018-11-20T09:26:10+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_notice' [ RunTime:0.019001s ]
+[ 2018-11-20T09:26:11+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'relaxed' AND table_name = 'fa_notice' ORDER BY ORDINAL_POSITION [ RunTime:0.019001s ]
+[ 2018-11-20T09:26:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-11-20T09:26:15+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-11-20T09:26:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011000s ]
+[ 2018-11-20T09:26:15+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-11-20T09:26:15+08:00 ][ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\lang/zh-cn.php
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.030001s ] mysql:host=sh-cdb-mwf0h7ig.sql.tencentcdb.com;port=62879;dbname=relaxed;charset=utf8
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.016001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'notice' LIMIT 1 [ RunTime:0.015001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'notice' , '通知' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1542677175 , 1542677175) [ RunTime:0.015001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'notice/index' LIMIT 1 [ RunTime:0.015001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'notice/add' LIMIT 1 [ RunTime:0.014001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'notice/edit' LIMIT 1 [ RunTime:0.014001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'notice/del' LIMIT 1 [ RunTime:0.016001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'notice/multi' LIMIT 1 [ RunTime:0.014001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 314 , 'notice/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1542677175 , 1542677175) [ RunTime:0.016001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 314 , 'notice/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1542677175 , 1542677175) [ RunTime:0.008001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 314 , 'notice/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1542677175 , 1542677175) [ RunTime:0.008000s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 314 , 'notice/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1542677175 , 1542677175) [ RunTime:0.008001s ]
+[ 2018-11-20T09:26:15+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 314 , 'notice/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1542677175 , 1542677175) [ RunTime:0.010001s ]

